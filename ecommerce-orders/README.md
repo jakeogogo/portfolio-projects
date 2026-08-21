@@ -40,6 +40,7 @@ Action: Investigate why 985/ 1598 unique customers ship to Kano generating only 
         Check it average order value, category mix, or market saturation? Use this to unlock ₦50-100M incremental revenue across underperforming states.
 
 2. Product Revenue Concentration
+   
 The business runs on three products that generate nearly half of the revenue while seven products generate the remaining 51%. This is both the business' greatest asset and  biggest vulnerability. Office Chair: ₦265.5M (20.5%), Smart Watch: ₦201.7M (15.5%) , External SSD: ₦173.5M (13.4%) are the profit engine. They're mature, proven, and generating predictable cash. However, they also carry existential risk since any supply disruption, competitor move, or demand shock in these categories threatens half of the  business.
 
 Action: Analyze the Office Chair's supply constraints, margin profile, and customer acquisition cost. If margin is healthy, this is a profit engine to protect. If not, consider whether you're overweighting a low-margin volume driver. Review why Smart Watch and SSD succeed while other Electronics underperform.
