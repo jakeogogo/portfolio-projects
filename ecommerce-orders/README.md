@@ -5,7 +5,7 @@ Welcome to my **ecommerce orders analysis project** repository.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project Overview
-This project analyzes sales trends, product performance, and customer behavior.
+This project analyzes sales trends, product performance, and customer behavior in an ecommerce business operating in multiple states in Nigeria.
 
 ## Tools
 - Microsoft SQL Server
