@@ -40,18 +40,15 @@ Action: Investigate why 985/ 1598 unique customers ship to Kano generating only 
         Check it average order value, category mix, or market saturation? Use this to unlock ₦50-100M incremental revenue across underperforming states.
 
 2. Product Revenue Concentration
-
-Your top 5 products generate ₦891M (69% of revenue), with Office Chair alone accounting for ₦262M (20%). Smart Watch and External SSD are the only other significant contributors. The remaining thousands of SKUs are breadth with low impact.
+The business runs on three products that generate nearly half of the revenue while seven products generate the remaining 51%. This is both the business' greatest asset and  biggest vulnerability. Office Chair: ₦265.5M (20.5%), Smart Watch: ₦201.7M (15.5%) , External SSD: ₦173.5M (13.4%) are the profit engine. They're mature, proven, and generating predictable cash. However, they also carry existential risk since any supply disruption, competitor move, or demand shock in these categories threatens half of the  business.
 
 Action: Analyze the Office Chair's supply constraints, margin profile, and customer acquisition cost. If margin is healthy, this is a profit engine to protect. If not, consider whether you're overweighting a low-margin volume driver. Review why Smart Watch and SSD succeed while other Electronics underperform.
 
-3. Data Quality Blocker: ₦717M From Unidentified Product and ₦10.7M From Unidentified Customers 
-
-55% of ₦1.3B revenue (₦717M) is lies in "others" category where we have no visibility into what's actually selling. This prevents complete product mix analysis, personalization, and repeat-purchase insight majority revenue slice. Of this "others" category revenue, Lagos contributes ₦273M (38%) and is quite is significant as Lagos as we have also identified Lagos as our core market.
+3. Data Quality Blocker:  ₦10.7M From Unidentified Customers 
 
 0.8% of revenue (₦10.7M) is tied to NULL customer IDs, preventing RFM (Recency, Frequency, Monetary) analysis, personalization, and repeat-purchase insight on a non-trivial revenue slice. Our top single customer (CUST1824) generates only ₦3.3M - suggesting that named customer database is incomplete or your checkout flow has friction.
 
-Action: Audit your product categorization during warehouse inventory capture and customer_id capture at checkout. Implement mandatory account creation or email collection to tag the unknown product ₦717M & NULL customer ID ₦10.7M. This unlocks immediate insights into repeat rate, cohort value, and churn.
+Action: Audit customer_id capture at checkout. Implement mandatory account creation or email collection to tag the customer ID ₦10.7M. This unlocks immediate insights into repeat rate, cohort value, and churn.
 
 
 - SQL dialect used (SQL Server, MS Visual Code)
