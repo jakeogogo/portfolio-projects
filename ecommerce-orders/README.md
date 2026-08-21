@@ -45,11 +45,13 @@ Your top 5 products generate ₦891M (69% of revenue), with Office Chair alone a
 
 Action: Analyze the Office Chair's supply constraints, margin profile, and customer acquisition cost. If margin is healthy, this is a profit engine to protect. If not, consider whether you're overweighting a low-margin volume driver. Review why Smart Watch and SSD succeed while other Electronics underperform.
 
-3. Data Quality Blocker: ₦10.7M From Unidentified Customers
+3. Data Quality Blocker: ₦717M From Unidentified Product and ₦10.7M From Unidentified Customers 
 
+55% of revenue (₦717M) is tied to uncategorized "product', preventing proper product mix analysis, personalization, and repeat-purchase insight majority revenue slice. The top product (Office Chair) generates only ₦265.5M while the which is 37% of the uncategorized "others' category. This is significant as Lagos contributes ₦273.4M to this un-categorization of product.
+ 
 0.8% of revenue (₦10.7M) is tied to NULL customer IDs, preventing RFM analysis, personalization, and repeat-purchase insight on a non-trivial revenue slice. Your top single customer (CUST1824) generates only ₦3.3M—suggesting your named customer database is incomplete or your checkout flow has friction.
 
-Action: Audit your customer ID capture at checkout. Implement mandatory account creation or email collection to tag the orphaned ₦10.7M. This unlocks immediate insights into repeat rate, cohort value, and churn.
+Action: Audit your product categorization during warehouse inventory capture and customer_id capture at checkout. Implement mandatory account creation or email collection to tag the orphaned product ₦717M & customer_id ₦10.7M. This unlocks immediate insights into repeat rate, cohort value, and churn.
 
 
 - SQL dialect used (SQL Server, MS Visual Code)
