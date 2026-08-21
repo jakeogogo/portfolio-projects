@@ -47,11 +47,11 @@ Action: Analyze the Office Chair's supply constraints, margin profile, and custo
 
 3. Data Quality Blocker: ₦717M From Unidentified Product and ₦10.7M From Unidentified Customers 
 
-55% of revenue (₦717M) is tied to uncategorized "product', preventing proper product mix analysis, personalization, and repeat-purchase insight majority revenue slice. The top product (Office Chair) generates only ₦265.5M while the which is 37% of the uncategorized "others' category. This is significant as Lagos contributes ₦273.4M to this un-categorization of product.
- 
-0.8% of revenue (₦10.7M) is tied to NULL customer IDs, preventing RFM analysis, personalization, and repeat-purchase insight on a non-trivial revenue slice. Your top single customer (CUST1824) generates only ₦3.3M—suggesting your named customer database is incomplete or your checkout flow has friction.
+55% of ₦1.3B revenue (₦717M) is lies in "others" category where we have no visibility into what's actually selling. This prevents complete product mix analysis, personalization, and repeat-purchase insight majority revenue slice. Of this "others" category revenue, Lagos contributes ₦273M (38%) and is quite is significant as Lagos as we have also identified Lagos as our core market.
 
-Action: Audit your product categorization during warehouse inventory capture and customer_id capture at checkout. Implement mandatory account creation or email collection to tag the orphaned product ₦717M & customer_id ₦10.7M. This unlocks immediate insights into repeat rate, cohort value, and churn.
+0.8% of revenue (₦10.7M) is tied to NULL customer IDs, preventing RFM (Recency, Frequency, Monetary) analysis, personalization, and repeat-purchase insight on a non-trivial revenue slice. Our top single customer (CUST1824) generates only ₦3.3M - suggesting that named customer database is incomplete or your checkout flow has friction.
+
+Action: Audit your product categorization during warehouse inventory capture and customer_id capture at checkout. Implement mandatory account creation or email collection to tag the unknown product ₦717M & NULL customer ID ₦10.7M. This unlocks immediate insights into repeat rate, cohort value, and churn.
 
 
 - SQL dialect used (SQL Server, MS Visual Code)
