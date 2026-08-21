@@ -34,9 +34,10 @@ The project provides key insights into the business operations and proffers reco
 ## Key Business Insights
 1. Critical Geographic Concentration Risk
 
-Lagos is the core market, contributing 480.9M (37.1%) total revenue of ₦1.3B with only 93% of your customer base, indicating extremely efficient monetization in that region. However, this heavy dependence creates supply-chain and demand risk (for Lagos). The remaining five states each contribute 12-13% of revenue despite comparable customer counts to Lagos. This suggests significant untapped efficiency in Kano, FCT, Edo, Rivers, and Oyo thus making geographic expansion outside Lagos the clearest growth lever.
+Lagos is the core market, contributing 480.9M (37.1%) total revenue of ₦1.3B, indicating extremely efficient monetization in that region. However, this heavy dependence creates supply-chain and demand risk (for Lagos). The remaining five states each contribute 12-13% of revenue despite comparable customer counts to Lagos. This suggests significant untapped efficiency in Kano, FCT, Edo, Rivers, and Oyo thus making geographic expansion outside Lagos the clearest growth lever.
 
-Action: Investigate why Kano (985 customers) generates only ₦169M vs. Lagos (1,492 customers) generating ₦481M. Is it average order value, category mix, or market saturation? Use this to unlock ₦50-100M incremental revenue across underperforming states.
+Action: Investigate why 985/ 1598 unique customers ship to Kano generating only ₦169M vs.  1,492/ 1598 unique customers shipping to Lagos and generating ₦481M. 
+        Check it average order value, category mix, or market saturation? Use this to unlock ₦50-100M incremental revenue across underperforming states.
 
 2. Product Revenue Concentration
 
