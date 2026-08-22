@@ -30,8 +30,8 @@ The project provides key insights into the business operations and proffers reco
 2. Open SSMS.
 3. Create PracticeDB database
 4. Upload csv file 01_ecommerce_orders_raw.csv from portfolio-projects/ecommerce-orders/data folder into PracticeDB with as schema 'dbo' as flat file into database
-5. Copy EDA.sql from portfolio-projects/ecommerce-orders/scripts folder into SSMS and run
-6. Copy EDA2.sql from portfolio-projects/ecommerce-orders/scripts folder into SSMS and run
+5. Copy portfolio-projects/ecommerce-orders/scripts/EDA.sql into SSMS and run
+6. Copy portfolio-projects/ecommerce-orders/scripts/EDA2.sql into SSMS and run
 7. Run scripts in numerical order.
 8. Note that the expected output for most scripts is included after each script 
 
