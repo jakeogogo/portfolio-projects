@@ -75,3 +75,6 @@ ACTION: Segment customers by lifetime value, protect the top 100 with a retentio
 
 <img width="370" height="400" alt="image" src="https://github.com/user-attachments/assets/02a77430-c3b0-4f88-bbbc-a324bdccb176" />
 
+<img width="358" height="360" alt="image" src="https://github.com/user-attachments/assets/52592f68-c012-473c-ad54-e0c56dc54b0f" />
+
+
