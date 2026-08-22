@@ -72,3 +72,12 @@ Action: Segment your 1,598 customers by lifetime value. Build a retention progra
 
 ACTION: Segment customers by lifetime value, protect the top 100 with a retention program, and send reorder or product-recommendation emails to customers with two or more purchases. Test referrals to encourage high-value customers to bring in similar buyers.
 
+
+Actionable Recommendations
+Priority	Action	Why	Impact
+High	Analyze Lagos vs other states product mix	Why does office furniture sell premium in Lagos?	Replicate that positioning in Kano/Edo
+High	Test premium product positioning in Kano/Edo	Current ₦171k avg is 50% of Lagos. Targeted campaigns could bridge gap.	₦100M+ incremental if successful
+Medium	Investigate repeat purchase rate by state	Lagos's high avg suggests loyalty or bulk orders. Quantify this.	Build retention playbook for high-value repeat segment
+Medium	Run cohort analysis: customer lifetime value by state	Are Lagos customers staying longer? Worth more over 12 months?	Informs acquisition spend by geography
+Low	Test dynamic pricing by state	If Lagos market can bear 2x, explore price elasticity in others	5-10% margin uplift if ceiling exists
+
