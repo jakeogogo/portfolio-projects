@@ -19,30 +19,18 @@ The project provides key insights into the business operations and proffers reco
 - Visual Studio Code
 
 ## Project structure
- 
 ecommerce-orders/
 └── ecommerce-orders
-
     ├── README.md
-    
     ├── data
-    
     │   └── 01_ecommerce_orders_raw.csv
-    
     ├── documents
-    
     │   ├── ecommerce business business insights.docx
-    
     │   ├── ecommerce customer value analysis.docx
-    
     │   └── ecommerce product analysis.docx
-    
     ├── images
-    
     └── scripts
-    
         ├── EDA.sql
-        
         └── EDA2.sql
 
 ## How to run
