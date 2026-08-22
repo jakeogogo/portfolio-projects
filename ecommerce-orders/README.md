@@ -77,6 +77,7 @@ Business Metrics
 <img width="730" height="693" alt="image" src="https://github.com/user-attachments/assets/e6108a10-99d2-4bd2-a534-d1d2a9d113a2" />
 
 Product and Customer Metrics
+
 <img width="370" height="400" alt="image" src="https://github.com/user-attachments/assets/02a77430-c3b0-4f88-bbbc-a324bdccb176" />
 
 <img width="358" height="400" alt="image" src="https://github.com/user-attachments/assets/52592f68-c012-473c-ad54-e0c56dc54b0f" />
