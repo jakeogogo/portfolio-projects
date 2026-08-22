@@ -34,52 +34,41 @@ The project provides key insights into the business operations and proffers reco
 ## Key Business Insights
 1. Critical Geographic Concentration Risk
 
-Lagos is the core market, contributing 480.9M (37.1%) total revenue of ₦1.3B, indicating extremely efficient monetization in that region. However, this heavy dependence creates supply-chain and demand risk (for Lagos). The remaining five states each contribute 12-13% of revenue despite comparable customer counts to Lagos. This suggests significant untapped efficiency in Kano, FCT, Edo, Rivers, and Oyo thus making geographic expansion outside Lagos the clearest growth lever.
+Lagos drives 37% of ₦1.3B revenue (₦481M) and is highly efficient, but creates concentration risk. Similar customer counts in other states generate far less revenue, pointing to pricing, product-mix, or positioning gaps.
 
-Action: Investigate why 985/ 1598 unique customers ship to Kano generating only ₦169M vs.  1,492/ 1598 unique customers shipping to Lagos and generating ₦481M. 
-        Check it average order value, category mix, or market saturation? Use this to unlock ₦50-100M incremental revenue across underperforming states.
+ACTION: Investigate Kano’s ₦169M revenue from 985 customers versus Lagos’s ₦481M from 1,492 customers to identify growth levers that could unlock ₦50–100M across underperforming states.
 
 2. Product Revenue Concentration
    
-The business runs on three products that generate nearly half of the revenue while seven products generate the remaining 51%. This is both the business' greatest asset and  biggest vulnerability. Office Chair: ₦265.5M (20.5%), Smart Watch: ₦201.7M (15.5%) , External SSD: ₦173.5M (13.4%) are the profit engine. They're mature, proven, and generating predictable cash. However, they also carry existential risk since any supply disruption, competitor move, or demand shock in these categories threatens half of the  business.
+Three products - Office Chair, Smart Watch, and External SSD—generate 49% of revenue, making them reliable growth engines but a major concentration risk. Any supply disruption, competitor move, or demand shock in these categories threatens half of the  business.
 
-Action: Analyze the Office Chair's supply constraints, margin profile, and customer acquisition cost. If margin is healthy, this is a profit engine to protect. If not, consider whether you're overweighting a low-margin volume driver. Review why Smart Watch and SSD succeed while other Electronics underperform.
+ACTION: Protect these categories by assessing Office Chair supply reliability, margins, and acquisition cost, and identify why 'Smart Watches' and 'External SSDs' outperform other electronics to replicate their success.
 
 3. Data Quality Blocker:  ₦10.7M From Unidentified Customers 
 
-0.8% of revenue (₦10.7M) is tied to NULL customer IDs, preventing RFM (Recency, Frequency, Monetary) analysis, personalization, and repeat-purchase insight on a non-trivial revenue slice. Our top single customer (CUST1824) generates only ₦3.3M - suggesting that named customer database is incomplete or your checkout flow has friction.
+₦10.7M (0.8% of revenue) lacks customer IDs, limiting RFM (Recency, Frequency, Monetary) analysis, personalization, and repeat-purchase insights. The top identified customer contributes only ₦3.3M, suggesting an incomplete customer database or checkout friction.
 
-Action: Audit customer_id capture at checkout. Implement mandatory account creation or email collection to tag the customer ID ₦10.7M. This unlocks immediate insights into repeat rate, cohort value, and churn.
+ACTION: Implement mandatory customer ID capture at checkout - require email registration or account creation before order completion. This immediately tags the orphaned ₦10.7M and unlocks RFM analysis, repeat-purchase cohorts, and retention strategies that would otherwise remain invisible.
 
+4. Payment Method Balance (Good News)
 
-- SQL dialect used (SQL Server, MS Visual Code)
-- Schema or ERD
-- How to run scripts, in order
-- 3–5 key insights, written in plain English
-- Screenshots of results or dashboard
-- Name scripts by execution order (01_, 02_) so a recruiter can reproduce the work easily.
-- Keep raw datasets out of Git when they are large or restricted; include a download link and a small sample instead.
+Revenue is evenly distributed across POS, Paystack, bank transfer, card, Flutterwave, and cash (16–17% each), reducing dependence on any single payment method. This provides strong outage resilience and indicates broad appeal across cash, mobile, card, and traditional banking customers.
 
-## Key findings
-- Sales were highest in Q4.
-- Product category A produced the greatest revenue.
+ACTION: Monitor churn and customer value by payment method. If a method consistently attracts lower-value transactions, use targeted discounts or loyalty incentives to shift customers toward higher-revenue methods—provided the margin trade-off is favorable.
 
 
+5. Customer Value by location
+
+Orders shipped to Lagos averaged ₦322k in value-88% higher than the ₦164-171k shipped across Kano, Edo, Rivers, FCT, and Oyo - indicating a premium segment, stronger product mix, and better repeat purchasing or upselling. Orders shipped to the other states by similar customer counts and spend, suggesting standardized acquisition and weak regional tailoring. 
+
+ACTION: Target pricing, product mix, and messaging that could lift spend and shipment to other states without new acquisition; raising Kano to ₦220k per customer alone could add about ₦48M.
+
+Action: Segment your 1,598 customers by lifetime value. Build a retention program for the top 100 (likely 20-30% of revenue). Set up triggered email campaigns (reorder reminders, category recommendations) for customers with ≥2 purchases. Test a referral program to see if high-value customers will recruit peers.
 
 
+6. Customer Density vs. Revenue Density
 
+1,598 customers generated ₦1.3B - about ₦812k each on average-across 12,000 orders, or roughly 7.5 orders per customer. This suggests strong repeat buying or high-value purchases, but revenue is unevenly distributed, with many lower-value customers.
 
+ACTION: Segment customers by lifetime value, protect the top 100 with a retention program, and send reorder or product-recommendation emails to customers with two or more purchases. Test referrals to encourage high-value customers to bring in similar buyers.
 
-# Main title
-## Section heading
-### Small heading
-
-**bold text**
-*italic text*
-`inline code`
-- bullet text
-- folder layout
-    - data
-    - documents
-    - images
-    - scripts
