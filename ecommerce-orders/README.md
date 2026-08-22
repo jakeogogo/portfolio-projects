@@ -28,8 +28,12 @@ The project provides key insights into the business operations and proffers reco
 ## How to run
 1. Clone or download this repository.
 2. Open SSMS.
-3. Run scripts in numerical order.
-
+3. Create PracticeDB database
+4. Upload csv file 01_ecommerce_orders_raw.csv from portfolio-projects/ecommerce-orders/data folder into PracticeDB with as schema 'dbo' as flat file into database
+5. Copy EDA.sql from portfolio-projects/ecommerce-orders/scripts folder into SSMS and run
+6. Copy EDA2.sql from portfolio-projects/ecommerce-orders/scripts folder into SSMS and run
+7. Run scripts in numerical order.
+8. Note that the expected output for most scripts is included after each script 
 
 ## Key Business Insights
 1. Critical Geographic Concentration Risk
